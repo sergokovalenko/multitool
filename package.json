@@ -1,0 +1,22 @@
+{
+  "name": "multitool",
+  "version": "0.0.1",
+  "description": "set of reusable utils",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergokovalenko/multitool.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "sergokovalenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergokovalenko/multitool/issues"
+  },
+  "homepage": "https://github.com/sergokovalenko/multitool#readme"
+}
