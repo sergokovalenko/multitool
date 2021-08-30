@@ -10,4 +10,23 @@ describe('removeDuplicatesFromArrayOfObjectsByKey', () => {
     expect(removedBiNames[0].name).toBe('name');
     expect(removedBiNames[0].id).toBe(2);
   });
+
+  test('Comparing different objects', () => {
+    const arr = [
+      { id: { someObject: 'withField' }, name: 'name' },
+      { id: { someObject: 'withField' }, name: 'name' }
+    ];
+
+    expect(removeDuplicatesFromArrayOfObjectsByKey(arr, 'id')).toHaveLength(2);
+  });
+
+  test('Comparing same object', () => {
+    const id = { someObject: 'withField' };
+    const arr = [
+      { id, name: 'name' },
+      { id, name: 'name' }
+    ];
+
+    expect(removeDuplicatesFromArrayOfObjectsByKey(arr, 'id')).toHaveLength(1);
+  });
 });
