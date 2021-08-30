@@ -1,6 +1,6 @@
 import { getObjectComparator } from './getObjectComparator';
 
-describe('utils/getObjectComparator', () => {
+describe('getObjectComparator', () => {
   const comparatorFunctionASC = getObjectComparator('name');
   const comparatorFunctionDESC = getObjectComparator('name', 'desc');
 

@@ -1,6 +1,6 @@
 import { areArraysOfObjectsEqual } from './areArraysOfObjectsEqual';
 
-describe('utils/areArraysOfObjectsEqual', () => {
+describe('areArraysOfObjectsEqual', () => {
   test('different array length', () => {
     const arr1 = [{ id: 1 }];
     const arr2 = [{ id: 1 }, { id: 2 }];
