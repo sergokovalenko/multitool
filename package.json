@@ -1,8 +1,10 @@
 {
-  "name": "multitool",
+  "name": "reusable-multitool",
+  "author": "Sergei Kovalenko",
   "version": "0.0.1",
   "description": "set of reusable utils",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc --project tsconfig.json"
@@ -14,7 +16,6 @@
   "keywords": [
     "utils"
   ],
-  "author": "sergokovalenko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sergokovalenko/multitool/issues"
