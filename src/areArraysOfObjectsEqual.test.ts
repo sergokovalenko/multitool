@@ -16,7 +16,7 @@ describe('areArraysOfObjectsEqual', () => {
     expect(areArraysOfObjectsEqual(arr1, arr2, ['age'])).toBe(false);
   });
 
-  test('by meny properties', () => {
+  test('by many properties', () => {
     const arr1 = [{ name: 'name', age: 25, hasChild: false }, { name: 'name2', age: 30, hasChild: true }];
     const arr2 = [{ name: 'name', age: 25, hasChild: false }, { name: 'name2', age: 30, hasChild: false }];
 
