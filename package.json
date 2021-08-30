@@ -4,7 +4,8 @@
   "description": "set of reusable utils",
   "main": "index.ts",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "build": "tsc --project tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sergokovalenko/multitool/issues"
   },
-  "homepage": "https://github.com/sergokovalenko/multitool#readme"
+  "homepage": "https://github.com/sergokovalenko/multitool#readme",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
 }
