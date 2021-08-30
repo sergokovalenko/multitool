@@ -1,5 +1,1 @@
-type Test = {
-  id: string;
-}
-
-const a: Test = { id: 'some' };
+export * from './src';
