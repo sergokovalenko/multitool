@@ -5,6 +5,7 @@
   "description": "set of reusable utils",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist/**/*"],
   "scripts": {
     "test": "jest",
     "build": "tsc --project tsconfig.json"

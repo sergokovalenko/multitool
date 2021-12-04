@@ -22,12 +22,13 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "strictPropertyInitialization": false
   },
   "include": ["./index.ts"],
-  "exclude": ["node_modules"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
   "watchOptions": {
     "watchFile": "useFsEvents",
     "watchDirectory": "useFsEvents",
